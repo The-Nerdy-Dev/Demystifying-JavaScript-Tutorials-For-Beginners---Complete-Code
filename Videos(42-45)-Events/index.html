@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Events in JavaScript</title>
+  <style>
+    button {
+      background: rgb(59, 43, 43);
+      border-radius: 20px;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      outline: none;
+    }
+
+    button:hover {
+      background: white;
+      color: rgb(59, 43, 43);
+    }
+li {
+padding: 1.2rem;
+border: 2px solid black;
+}
+.orange {
+background: rgb(241, 129, 1);
+}
+.red {
+background: rgb(185, 57, 57);
+}
+.brown {
+background: rgb(214, 166, 166);
+}
+.green {
+background: rgb(79, 202, 79);
+}
+.yellow-green {
+background: rgb(192, 207, 56);
+}
+.yellow {
+background: yellow;
+}
+  </style>
+  <script src="events.js" defer></script>
+</head>
+
+<body>
+  <h1>Events in JavaScript</h1>
+  <!-- Let me comment this out -->
+  <!-- <button onclick="console.log('Clicked')">Click</button> -->
+  <button>Click</button>
+  <form>
+    <label for="name"> Name</label>
+    <input type="text" id="name" />
+    <button type="submit">Register for the Concert</button>
+  </form>
+  <!-- Code for the next video on events
+      Event delegation and propagation -->
+
+         <div class="gp-wrapper-div">
+           <div class="p-wrapper-div">
+             <div class="wrapper-div">
+               <button class="special">Click Here</button>
+             </div>
+           </div>
+         </div>
+     <ol>
+        <li id="orange">Juice</li>
+        <li id="red">Carrots</li>
+        <li id="brown">Sandwitch</li>
+        <li id="green">Green Apples</li>
+        <li id="yellow-green">Pineapple</li>
+        <li id="yellow">Mango</li>
+   </ol>
+
+</body>
+
+</html>
