@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP Requests</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <style>
+    .error-feedback,.success-feedback {
+      display: none;
+      font-size: 20px;
+      text-align: center;
+    }
+    .error {
+      display: block;
+      color: red;
+    }
+    .success {
+      display: block;
+      color: green;
+    }
+    .list-group {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br><br>
+  <div class="container">
+      <form>
+        <div class="error-feedback"></div>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input class="form-control" type="text" id="title">
+        </div>
+        <div class="form-group">
+          <label for="content">Description</label>
+          <textarea class="form-control" id="description" cols="30" rows="10"> </textarea>
+        </div>
+        <button id="btn" type="submit" class="btn btn-primary">Create</button>
+      </form>
+    <br><br>
+    <div class="success-feedback"></div>
+    <ul class="list-group">
+    </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
