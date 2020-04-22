@@ -1,0 +1,28 @@
+{
+  "mobiles": [
+    {
+      "id": 101,
+      "name": "Samsung",
+      "price": 20000,
+      "url": "https://i.ebayimg.com/thumbs/images/g/WMAAAOSwB-1Y263P/s-l225.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Apple",
+      "price": 60000,
+      "url": "https://www.valuewalk.com/wp-content/uploads/2017/04/iPhone-X-Concept-renders.jpg"
+    },
+    {
+      "id": 103,
+      "name": "mi",
+      "price": 10000,
+      "url": "http://cdn01.androidauthority.net/wp-content/uploads/2014/08/xiaomi-mi4-first-impressions-aa-10-of-13-710x399.jpg"
+    },
+    {
+      "id": 104,
+      "name": "sony",
+      "price": 30000,
+      "url": "http://cdn04.androidauthority.net/wp-content/uploads/2013/08/sony-xperia-z-ultra-aa-stock-151-645x362.jpg"
+    }
+  ]
+}
